@@ -5,6 +5,10 @@ shell:
     - "~"
 
 window:
+  dimensions:
+    columns: 120
+    lines: 36
+
   decorations: full
 
 background_opacity: 0.95
