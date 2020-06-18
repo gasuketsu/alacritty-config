@@ -17,15 +17,9 @@ font:
   normal:
     family: Sarasa Fixed J
 
-  bold:
-    family: Sarasa Fixed J
-
-  italic:
-    family: Sarasa Fixed J
-
   size: 11.0
 
-custom_cursor_colors: True
+draw_bold_text_with_bright_colors: true
 
 # Colors (based on Gruvbox dark)
 colors:
