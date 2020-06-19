@@ -6,8 +6,8 @@ shell:
 
 window:
   dimensions:
-    columns: 120
-    lines: 36
+    columns: 140
+    lines: 38
 
   decorations: full
 
@@ -56,3 +56,6 @@ colors:
 
 cursor:
   style: Block
+
+key_bindings:
+  - { key: F2, mods: Alt, action: SpawnNewInstance }
