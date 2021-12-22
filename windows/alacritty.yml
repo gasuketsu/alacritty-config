@@ -9,15 +9,19 @@ window:
     columns: 140
     lines: 38
 
+  padding:
+    x: 4
+    y: 4
+
   decorations: full
 
 background_opacity: 0.95
 
 font:
   normal:
-    family: Sarasa Fixed J
+    family: PlemolJP Console NF
 
-  size: 11.0
+  size: 13.0
 
 draw_bold_text_with_bright_colors: true
 
@@ -58,4 +62,4 @@ cursor:
   style: Block
 
 key_bindings:
-  - { key: F2, mods: Alt, action: SpawnNewInstance }
+  - { key: N, mods: Alt|Shift, action: SpawnNewInstance }
